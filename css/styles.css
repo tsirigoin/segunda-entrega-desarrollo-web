@@ -1,0 +1,13 @@
+/* reset universal */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.margen-header {
+	padding-left: .5%;
+}
+
+.dropdown-menu {
+	background-color: rgb(130, 157, 184) !important;
+}
