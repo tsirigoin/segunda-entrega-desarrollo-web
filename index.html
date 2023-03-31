@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./css/styles.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 	<link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+	<script src="https://kit.fontawesome.com/425c023706.js" crossorigin="anonymous"></script>
 	<title>Planet Tape</title>
 </head>
-<body>
+
+<body class="bg-dark">
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
-			<a class="navbar-brand margen-header" href="./index.html"><object data="./assets/img/record-159211.svg" width="45" height="45" ></object></a>
+		<nav class="navbar navbar-expand-lg bg-white">
+			<a class="navbar-brand margen-header" href="./index.html"><object data="./assets/img/record-159211.svg"
+					width="45" height="45"></object></a>
 			<a class="navbar-brand" href="./index.html">Planet Tape</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			
+
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
@@ -27,25 +34,28 @@
 						<a class="nav-link" href="#">Nosotros</a>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+							data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Locales
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 							<a class="dropdown-item" href="#">Karaokes</a>
 							<a class="dropdown-item" href="#">Disquerías</a>
-							<a class="dropdown-item" href="./pages/store.html">Tienda</a>
+							<a class="dropdown-item" href="./pages/store.html">Plataforma</a>
 						</div>
 					</li>
 				</ul>
 			</div>
-			
+
 			<form class="form-inline">
-			    <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
-  			</form>
+				<input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+			</form>
 
 			<div class="dropdown text-end margen-header">
-				<a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdown-user-1" data-bs-toggle="dropdown" aria-expanded="false">
-					<img src="./assets/img/railroad-tracks-863675_640.jpg" alt="foto de perfil" width="45" height="45" class="rounded-circle">
+				<a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdown-user-1"
+					data-bs-toggle="dropdown" aria-expanded="false">
+					<img src="./assets/img/railroad-tracks-863675_640.jpg" alt="foto de perfil" width="45" height="45"
+						class="rounded-circle">
 				</a>
 				<ul class="dropdown-menu dropdown-menu-end text-small" aria-labelledby="dropdown-user-1">
 					<li>
@@ -67,8 +77,27 @@
 			</div>
 		</nav>
 	</header>
+
+	<article class="semanal">
+		<h1>
+			¿Cómo sacar el <em>máximo</em> provecho a nuestro equipo de audio hogareño?
+		</h1>
+		<div class="contenedor">
+			<div>
+				<h2 class="copete">¿Realmente necesitamos gastar <span>demasiado</span> para tener buena calidad de audio?</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum amet accusantium nesciunt aut quis a
+					adipisci optio tempore quibusdam dolorum corrupti culpa, soluta, provident omnis. Dignissimos ipsa
+					nemo sit error. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta aut non recusandae
+					voluptatem deleniti in rerum! Omnis iusto deleniti asperiores placeat labore vel quo, natus suscipit
+					explicabo facilis praesentium nesciunt.</p>
+				<button type="button" class="btn btn-outline-secondary">Enterate!</button>
+			</div>
+			<div class="img-articulo rounded-circle"></div>
+		</div>
+	</article>
+
 	<section class="exposicion">
-		<h2>Galeria</h2>
+		<h2>Los álbumes recomendados de la semana</h2>
 		<div class="galeria">
 			<div class="img img1"></div>
 			<div class="img img2"></div>
@@ -79,6 +108,47 @@
 		</div>
 	</section>
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+	<div class="container bg-dark">
+		<footer class="py-5">
+			<div class="row">
+				<div class="col-6 col-md-2 mb-3 text-white-50 margen-footer">
+					<h5>Sitio</h5>
+					<ul class="nav flex-column">
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Inicio</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Nosotros</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Servicios</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-5 offset-md-1 mb-3 text-white-50">
+					<form>
+						<h5>Subscribite a nuestra newsletter</h5>
+						<p>Una recomendación con seis álbumes semanales para tu día a día.</p>
+						<div class="d-flex flex-column flex-sm-row w-100 gap-2">
+							<label for="newsletter1" class="visually-hidden">Correo electrónico</label>
+							<input id="newsletter1" type="text" class="form-control" placeholder="Correo electrónico">
+							<button class="btn btn-primary" type="button">Subscribite</button>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top text-white-50">
+				<p>&copy; 2023 Planet Tape, S.A. Todos los derechos reservados.</p>
+				<ul class="list-unstyled d-flex">
+					<li class="ms-3"><a class="link-light" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+					<li class="ms-3"><a class="link-light" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+					<li class="ms-3"><a class="link-light" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+					<li class="ms-3"><a class="link-light" href="#"><i class="fa-brands fa-youtube"></i></a></li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+		crossorigin="anonymous"></script>
 </body>
+
 </html>
